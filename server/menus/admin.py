@@ -10,3 +10,6 @@ class CategoryAdmin(admin.ModelAdmin):
 class MenuAdmin(admin.ModelAdmin):
     list_display = ['name', 'category', 'price', 'description']
 
+@admin.register(Popular)
+class PopularAdmin(admin.ModelAdmin):
+    list_display = ['name', 'description']
