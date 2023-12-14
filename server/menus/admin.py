@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Menu, Category
+from .models import Menu, Category, Popular
 
 
 @admin.register(Category)
